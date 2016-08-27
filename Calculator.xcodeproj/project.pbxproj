@@ -14,6 +14,7 @@
 		657212EE1CD96A610029F38E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657212EC1CD96A610029F38E /* LaunchScreen.storyboard */; };
 		657212F91CD96A610029F38E /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657212F81CD96A610029F38E /* CalculatorTests.swift */; };
 		657213041CD96A610029F38E /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657213031CD96A610029F38E /* CalculatorUITests.swift */; };
+		657213131CD96B8A0029F38E /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657213121CD96B8A0029F38E /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		657212FF1CD96A610029F38E /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		657213031CD96A610029F38E /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		657213051CD96A610029F38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657213121CD96B8A0029F38E /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				657212F71CD96A610029F38E /* CalculatorTests */,
 				657213021CD96A610029F38E /* CalculatorUITests */,
 				657212E11CD96A610029F38E /* Products */,
+				657213111CD96A800029F38E /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +100,9 @@
 		657212E21CD96A610029F38E /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				657212E31CD96A610029F38E /* AppDelegate.swift */,
-				657212E51CD96A610029F38E /* ViewController.swift */,
 				657212E71CD96A610029F38E /* Main.storyboard */,
-				657212EA1CD96A610029F38E /* Assets.xcassets */,
-				657212EC1CD96A610029F38E /* LaunchScreen.storyboard */,
-				657212EF1CD96A610029F38E /* Info.plist */,
+				657213121CD96B8A0029F38E /* CalculatorBrain.swift */,
+				657212E51CD96A610029F38E /* ViewController.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -123,6 +123,18 @@
 				657213051CD96A610029F38E /* Info.plist */,
 			);
 			path = CalculatorUITests;
+			sourceTree = "<group>";
+		};
+		657213111CD96A800029F38E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				657212EC1CD96A610029F38E /* LaunchScreen.storyboard */,
+				657212E31CD96A610029F38E /* AppDelegate.swift */,
+				657212EA1CD96A610029F38E /* Assets.xcassets */,
+				657212EF1CD96A610029F38E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = Calculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				657213131CD96B8A0029F38E /* CalculatorBrain.swift in Sources */,
 				657212E61CD96A610029F38E /* ViewController.swift in Sources */,
 				657212E41CD96A610029F38E /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +497,7 @@
 				6572130A1CD96A610029F38E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6572130B1CD96A610029F38E /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +506,7 @@
 				6572130D1CD96A610029F38E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6572130E1CD96A610029F38E /* Build configuration list for PBXNativeTarget "CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +515,7 @@
 				657213101CD96A610029F38E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
